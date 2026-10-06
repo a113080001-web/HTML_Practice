@@ -76,6 +76,54 @@ section {
     /* 內距 25px */
     border-radius: 8px;
     /* 圓⾓邊框 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
     /* 輕微陰影增添⽴體感 */
+}
+
+h2 {
+    color: #4a3e3d;
+    border-bottom: 2px solid #4a3e3d;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #4a3e3d;
+}
+
+/* 4. 清單與表格樣式美化 */
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background-color: #4a3e3d;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* 5. ⾴尾樣式 */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #faf0ca;
+    font-size: 14px;
+    margin-top: 40px;
 }
